@@ -33,12 +33,14 @@ const Details = ({ show, item, onClose }) => {
                   >
                     Fechar
                   </button>
-                  {/* <button
-                    className="w-full mt-2 p-2.5 flex-1 text-gray-800 rounded-md outline-none border ring-offset-2 ring-indigo-600 focus:ring-2"
-                    onClick={onClose}
-                  >
-                    Favoritar
-                  </button> */}
+                  <button className="w-full mt-2 p-2.5 flex-1 text-gray-800 rounded-md outline-none border ring-offset-2 ring-indigo-600 focus:ring-2">
+                    <a
+                      target="_blank"
+                      href={`https://play.google.com/store/books/details?id=${item.id}&rdid=book-${item.id}&rdot=1&source=gbs_api`}
+                    >
+                      Comprar
+                    </a>
+                  </button>
                 </div>
               </div>
             </div>

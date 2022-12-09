@@ -24,7 +24,7 @@ function App() {
       <div className="m-10">
         <input
           className="appearance-none border 
-        rounded w-1/3 py-2 px-3 text-gray-700 
+        rounded w-2/3 py-2 px-3 text-gray-700 
         leading-tight"
           placeholder="Pesquise Aqui Um Título"
           type="text"
