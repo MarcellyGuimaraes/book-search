@@ -24,14 +24,16 @@ function App() {
       <Header />
       <div className="m-10">
         {search ? (
-          <h1>Mostrando resultados para: {search}.</h1>
+          <h1 className="text-3xl font-bold dark:text-white">
+            Mostrando resultados para: {search}.
+          </h1>
         ) : (
-          <h1>Procure aqui o seu livro favorito!</h1>
+          <h1 className="text-3xl font-bold dark:text-white">
+            Procure aqui o seu livro favorito!
+          </h1>
         )}
         <input
-          className="appearance-none border 
-        rounded w-full py-2 px-3 text-gray-700 
-        leading-tight lg:w-2/3"
+          className="appearance-none border mt-6 rounded w-full py-2 px-3 text-gray-700 leading-tight lg:w-2/3"
           placeholder="Pesquise Aqui Um Título"
           type="text"
           value={search}

@@ -4,7 +4,7 @@ export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500 mb-3">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-yellow-700 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
@@ -57,9 +57,7 @@ export default function Header() {
                   href="https://books.google.com.br/books?uid=103626990167006016662&hl=pt-BR"
                   target="_blank"
                 >
-                  <span className="ml-2 cursor-not-allowed">
-                    Minha Biblioteca
-                  </span>
+                  <span className="ml-2">Minha Biblioteca</span>
                 </a>
               </li>
             </ul>
