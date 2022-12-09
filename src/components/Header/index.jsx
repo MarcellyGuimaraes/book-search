@@ -45,7 +45,7 @@ export default function Header() {
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  // href="https://books.google.com.br/books?uid=103626990167006016662&as_coll=0&hl=pt-BR&source=gbs_lp_bookshelf_list"
+                  href="https://books.google.com.br/books?uid=103626990167006016662&as_coll=0&hl=pt-BR&source=gbs_lp_bookshelf_list"
                   target="_blank"
                 >
                   <span className="ml-2">Meus Favoritos</span>
