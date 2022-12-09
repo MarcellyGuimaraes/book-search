@@ -9,8 +9,7 @@ const Card = ({ book }) => {
     <>
       {book.map((item) => {
         let thumbnail =
-          item.volumeInfo.imageLinks &&
-          item.volumeInfo.imageLinks.smallThumbnail
+          item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.thumbnail
         if (thumbnail != undefined) {
           return (
             <div key={item.id}>

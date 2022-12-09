@@ -48,16 +48,17 @@ export default function Header() {
                   href="https://books.google.com.br/books?uid=103626990167006016662&as_coll=0&hl=pt-BR&source=gbs_lp_bookshelf_list"
                   target="_blank"
                 >
-                  <span className="ml-2">Meus Favoritos</span>
+                  <span className="ml-2">Favoritos</span>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#"
+                  href="https://books.google.com.br/books?uid=103626990167006016662&hl=pt-BR"
+                  target="_blank"
                 >
                   <span className="ml-2 cursor-not-allowed">
-                    Entrar com Google
+                    Minha Biblioteca
                   </span>
                 </a>
               </li>
